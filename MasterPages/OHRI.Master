@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OHRI.master.cs" Inherits="DocParser.MasterPages.OHRI" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css" />
+    <link rel="stylesheet" href="../Content/bootstrap-datetimepicker.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script type="text/javascript" src="Scripts/moment.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap-datetimepicker.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 185px;
+            height: 51px;
+        }
+
+        .table-striped > tbody > tr:nth-child(odd) > th {
+            background-color: #E6E6E6;
+        }
+
+        .tab-pane {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            border-radius: 0px 0px 5px 5px;
+            padding: 10px;
+        }
+
+        .nav-tabs {
+            margin-bottom: 0;
+        }
+
+        select::-ms-expand {
+            width: 12px;
+            border: none;
+            background: #fff;
+        }
+
+        .image {
+            float: left;
+        }
+
+        .alignme {
+            margin: 0px 0;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" class="form-horizontal" role="form" runat="server">        
+        <div class="form-group" style="border-bottom:1px solid #ddd;">
+            <div class="col-sm-1 pull-left">
+                <span style="vertical-align: middle">
+                    <a href="../default.asp">
+                        <img class="image" src="images/myOHRI.jpg" /></a>
+                </span>
+            </div>
+            <div class="col-sm-10 alignme" style="font-size: 26px; text-align: center; height: 51px; line-height: 51px;">
+                <span style="display: inline-block;">Document Parser</span>                
+            </div>                        
+        </div>
+        <div class="main col-sm-10 col-sm-offset-1">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="footer">
+        </div>
+    </form>
+</body>
+</html>

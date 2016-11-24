@@ -1,0 +1,8 @@
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\bin\DocParser.dll.config
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\bin\DocParser.dll
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\bin\DocParser.pdb
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\obj\Debug\DocParser.csprojResolveAssemblyReference.cache
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\obj\Debug\DocParser.dll
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\obj\Debug\DocParser.pdb
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\bin\DocX.dll
+c:\users\heirving\documents\visual studio 2013\Projects\DocParser\DocParser\obj\Debug\DocParser.csproj.ResolveComReference.cache
